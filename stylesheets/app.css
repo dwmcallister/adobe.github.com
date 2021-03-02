@@ -557,7 +557,7 @@ select {
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 20px;
   max-width: 62.5em;
   *zoom: 1;
 }
@@ -7353,7 +7353,8 @@ form.custom .custom.dropdown.open.medium ul {
 
 /* line 130, sass/app.scss */
 .intro {
-  margin-top: 50px;
+  /* margin-top: 50px; */
+  margin-top: 100px;
   padding: 20px 0;
 }
 /* line 134, sass/app.scss */
@@ -7605,7 +7606,9 @@ form.custom .custom.dropdown.open.medium ul {
 
 /* line 370, sass/app.scss */
 .menu {
-  height: 50px;
+  /* height: 50px; */
+  height: max-content;
+  border-bottom: 1px solid #00000023;
   width: 100%;
   background: white;
   position: fixed;
@@ -7630,7 +7633,7 @@ form.custom .custom.dropdown.open.medium ul {
 }
 /* line 387, sass/app.scss */
 .menu .sub-nav.mobile .menuLinks.more {
-  height: 100px;
+  height: 150px;
 }
 /* line 390, sass/app.scss */
 .menu .sub-nav.mobile .menuLinks.more dd {
